@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Flutter Developer",
+    "company": "Redbox Events",
+    "period": "Jun 2025 - Feb 2026",
+    "description": "Worked remotely with a UK-based events company on existing Flutter applications and new projects. Added features, fixed bugs, wrote tests, improved app stability, and contributed to a Flutter Web reporting system for internal data workflows."
+  },
+  {
+    "role": "Flutter Developer",
+    "company": "Istoma",
+    "period": "Feb 2024 - Apr 2025",
+    "description": "Worked remotely with a Romanian software company as the sole Flutter developer for more than one year. Maintained and upgraded 15+ production applications, created custom Flutter apps from scratch, fixed issues, and delivered new features for existing apps."
+  },
+  {
+    "role": "Flutter Developer",
+    "company": "Revotec GmbH",
+    "period": "Jan 2023 - Dec 2023",
+    "description": "Worked remotely with an Austrian company on the Revocheck mobile application. Implemented new features, fixed bugs, wrote tests, improved reliability, and contributed to UI and performance improvements."
+  },
+  {
+    "role": "Web Developer",
+    "company": "Shokoufa Sanaat Pouyan",
+    "period": "Jun 2022 - Nov 2022",
+    "description": "Worked on-site in Kerman as part of the development team, contributing to the company web application built with Angular, C#, and SQL Server."
+  }
+]

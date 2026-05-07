@@ -1,0 +1,251 @@
+[
+    {
+      "title": "RedBox Scan Me",
+      "shortDescription": "Enterprise event scanning application used for QR-based ticket validation and attendee management.",
+      "problem": "Event teams required a fast and reliable mobile solution for scanning tickets, validating attendees, and handling event check-ins in real-time under high traffic conditions.",
+      "solution": "Worked on maintaining and extending the Scan Me application by implementing new features, improving QR scanning workflows, fixing production issues, and increasing application reliability.",
+      "architecture": "Built with Flutter using Bloc state management, GoRouter navigation, local SQLite storage, deep linking, QR scanning, and Sentry monitoring for production diagnostics.",
+      "challenges": "Improving scanning stability across devices, handling offline scenarios, optimizing QR workflows, and ensuring reliable performance during large-scale events.",
+      "impact": "Improved app stability and scanning performance while contributing to a production event management system actively used by RedBox event teams.",
+      "tech": [
+        "Flutter",
+        "Bloc",
+        "SQLite",
+        "QR Scanner",
+        "GoRouter",
+        "Sentry",
+        "REST API"
+      ],
+      "highlights": [
+        "Enterprise Event App",
+        "QR Ticket Validation",
+        "Bloc Architecture",
+        "Production Bug Fixing"
+      ],
+      "image": "assets/images/redbox_scanme.png",
+      "githubUrl": null,
+      "liveUrl": "https://play.google.com/store/apps/developer?id=RedBox+Events&hl=gsw",
+      "isFeatured": true
+    },
+  {
+    "title": "MedicalDentalBlue",
+    "shortDescription": "Healthcare and dental clinic mobile application with appointment workflows, media handling, maps integration, multilingual support, and patient-focused digital services.",
+    "problem": "The clinic required a modern mobile application for improving patient interaction, appointment access, healthcare communication, media delivery, and multilingual accessibility across mobile devices.",
+    "solution": "Developed and maintained the Flutter application by implementing healthcare-focused features, improving performance, integrating external services, and delivering a scalable patient experience.",
+    "architecture": "Built with Flutter using Bloc and Provider state management, REST API integrations, Flutter Map, WebView modules, PDF viewing, video playback, localization, notifications, secure local storage, and modular architecture principles.",
+    "challenges": "Managing complex plugin integrations, handling multimedia workflows, maintaining responsive performance across Android devices, and ensuring stable production releases with multiple external integrations.",
+    "impact": "Delivered a production-ready healthcare application with multilingual support, appointment workflows, clinic communication systems, multimedia features, and scalable mobile architecture.",
+    "tech": [
+      "Flutter",
+      "Bloc",
+      "Provider",
+      "REST API",
+      "Flutter Map",
+      "WebView",
+      "PDF",
+      "Video Player",
+      "Localization",
+      "Shared Preferences",
+      "HTTP",
+      "Connectivity"
+    ],
+    "highlights": [
+      "Healthcare Mobile App",
+      "Production Deployment",
+      "Maps Integration",
+      "Multilingual Support",
+      "Media & PDF Handling",
+      "Responsive Flutter UI"
+    ],
+    "image": "assets/images/medical_dental_blue.png",
+    "githubUrl": null,
+    "liveUrl": "https://play.google.com/store/apps/details?id=ro.medicalblue.istoma&hl=en",
+    "isFeatured": true
+  },
+    {
+      "title": "RedBox Contact Capture",
+      "shortDescription": "Mobile application for collecting attendee information and managing event contact capture workflows.",
+      "problem": "RedBox required a reliable mobile platform for capturing attendee information during events and synchronizing collected data efficiently.",
+      "solution": "Worked on adding new features, maintaining production systems, improving stability, and enhancing the overall user experience of the application.",
+      "architecture": "Developed with Flutter using REST APIs, SQLite local storage, QR scanning, responsive UI components, and production monitoring with Sentry.",
+      "challenges": "Handling synchronization reliability, improving app responsiveness during events, and maintaining compatibility across multiple Android devices.",
+      "impact": "Enhanced application stability and supported event teams with a more reliable attendee capture workflow.",
+      "tech": [
+        "Flutter",
+        "SQLite",
+        "REST API",
+        "Sentry",
+        "QR Scanner",
+        "GetX"
+      ],
+      "highlights": [
+        "Event Management",
+        "Production Maintenance",
+        "QR Integration",
+        "Offline Support"
+      ],
+      "image": "assets/images/redbox_contact_capture.png",
+      "githubUrl": null,
+      "liveUrl": "https://play.google.com/store/apps/developer?id=RedBox+Events&hl=gsw",
+      "isFeatured": true
+    },
+    {
+      "title": "RedBox WiFi Technician App",
+      "shortDescription": "Internal Flutter application developed from scratch for WiFi technicians and event infrastructure diagnostics.",
+      "problem": "Technicians needed an internal tool for monitoring event connectivity, network diagnostics, and on-site infrastructure management.",
+      "solution": "Designed and developed a complete Flutter application from scratch focused on network monitoring, diagnostics, and technician workflows.",
+      "architecture": "Implemented using Flutter with Bloc architecture, interactive maps, geolocation, charts, device diagnostics, and networking tools.",
+      "challenges": "Building reliable network diagnostic workflows, integrating location services, and visualizing technical metrics in a user-friendly way.",
+      "impact": "Provided technicians with a centralized internal tool for improving troubleshooting and operational efficiency during events.",
+      "tech": [
+        "Flutter",
+        "Bloc",
+        "Flutter Map",
+        "Geolocator",
+        "Dio",
+        "HTTP",
+        "Charts"
+      ],
+      "highlights": [
+        "Built From Scratch",
+        "Internal Enterprise Tool",
+        "Network Diagnostics",
+        "Technical Dashboard"
+      ],
+      "image": "assets/images/redbox_wifi.png",
+      "githubUrl": null,
+      "liveUrl": null,
+      "isFeatured": true
+    },
+    {
+      "title": "RedBox Reporting System",
+      "shortDescription": "Flutter Web reporting platform for internal business analytics and event reporting workflows.",
+      "problem": "RedBox needed an internal reporting platform capable of processing exported data, generating reports, and visualizing operational statistics.",
+      "solution": "Developed a Flutter Web reporting system prototype focused on data processing, analytics visualization, CSV/Excel exporting, and business reporting.",
+      "architecture": "Built using Flutter Web with Bloc architecture, chart visualizations, CSV and Excel processing, reactive streams, and modular clean architecture principles.",
+      "challenges": "Handling large exported datasets, implementing file processing workflows, and building responsive reporting dashboards optimized for web.",
+      "impact": "Created a scalable internal reporting solution prototype that streamlined operational reporting and data analysis workflows.",
+      "tech": [
+        "Flutter Web",
+        "Bloc",
+        "FlChart",
+        "CSV",
+        "Excel",
+        "RxDart",
+        "GoRouter"
+      ],
+      "highlights": [
+        "Flutter Web",
+        "Reporting Dashboard",
+        "Data Analytics",
+        "Enterprise Internal Tool"
+      ],
+      "image": "assets/images/redbox_reporting.png",
+      "githubUrl": null,
+      "liveUrl": "https://reporting-test.redboxtickets.net/",
+      "isFeatured": true
+    },
+  {
+    "title": "iStoma Healthcare Platform",
+    "shortDescription": "Large-scale healthcare ecosystem with patient management, communication, media processing, OCR, PDF handling, QR scanning, and multi-module clinic workflows.",
+    "problem": "Healthcare clinics required a scalable mobile platform capable of managing patient records, media uploads, QR workflows, OCR processing, notifications, PDF handling, messaging, and clinic operations across multiple devices and clinics.",
+    "solution": "Worked on maintaining and expanding multiple production healthcare applications by implementing new features, fixing bugs, improving reliability, upgrading dependencies, and enhancing overall performance and user experience.",
+    "architecture": "Flutter application architecture using Provider and Bloc patterns, modular package structure, local database caching with SQLite, REST API integrations, OneSignal notifications, OCR modules, QR scanning systems, PDF generation/viewing, secure storage, and device-level integrations.",
+    "challenges": "Handled large legacy codebases, dependency migrations, plugin compatibility issues, performance optimization, platform-specific issues, media processing complexity, and maintaining stability across many production applications.",
+    "impact": "Contributed to more than 15 healthcare and clinic applications used in production environments while improving maintainability, feature delivery speed, application stability, and user experience.",
+    "tech": [
+      "Flutter",
+      "Provider",
+      "Bloc",
+      "SQLite",
+      "REST API",
+      "Firebase",
+      "OneSignal",
+      "OCR",
+      "QR Scanner",
+      "WebView",
+      "PDF",
+      "Notifications"
+    ],
+    "highlights": [
+      "Large Scale Healthcare Platform",
+      "Production App Maintenance",
+      "OCR & QR Systems",
+      "Complex Plugin Integrations",
+      "Performance Optimization",
+      "Dependency Migration"
+    ],
+    "image": "assets/images/istoma.png",
+    "githubUrl": null,
+    "liveUrl": "https://play.google.com/store/apps/developer?id=iDava+Solutions",
+    "isFeatured": true
+  },
+  {
+    "title": "Aesthetic Kids Clinic",
+    "shortDescription": "Custom healthcare application developed from scratch for a medical clinic with appointment handling, media support, maps, localization, and patient-focused experience.",
+    "problem": "The clinic needed a modern mobile application to improve patient interaction, appointment access, communication, and digital healthcare experience.",
+    "solution": "Built the mobile application from scratch based on provided UI/UX designs while implementing core healthcare functionality, multimedia support, localization, notifications, and clinic interaction systems.",
+    "architecture": "Flutter application using Bloc and Provider state management, Firebase messaging, localization support, secure storage, maps integration, PDF viewing, media handling, and REST API communication.",
+    "challenges": "Implemented complex UI screens from design specifications, optimized multimedia handling, integrated notifications and maps, and ensured smooth performance across Android devices.",
+    "impact": "Successfully delivered a production-ready healthcare application with modern UX, scalable architecture, multilingual support, and reliable patient interaction features.",
+    "tech": [
+      "Flutter",
+      "Bloc",
+      "Provider",
+      "Firebase",
+      "REST API",
+      "Localization",
+      "Maps",
+      "Video Player",
+      "PDF",
+      "Notifications"
+    ],
+    "highlights": [
+      "Built From Scratch",
+      "Custom UI Implementation",
+      "Healthcare Mobile App",
+      "Firebase Notifications",
+      "Localization Support",
+      "Production Deployment"
+    ],
+    "image": "assets/images/aesthetic_kids_clinic.png",
+    "githubUrl": null,
+    "liveUrl": "https://play.google.com/store/apps/details?id=com.aesthetic_kids_clinic",
+    "isFeatured": true
+  },
+  {
+    "title": "Revocheck",
+    "shortDescription": "Enterprise Flutter application for inspection, reporting, QR scanning, NFC workflows, and field operations used by international teams.",
+    "problem": "The application required continuous feature development, bug fixing, and reliability improvements for real-world business workflows involving inspections, authentication, QR/NFC operations, offline data handling, and secure communication with backend services.",
+    "solution": "Implemented new Flutter features, improved existing workflows, fixed production issues, added test coverage, and contributed to improving application stability and maintainability across Android and iOS platforms.",
+    "architecture": "Worked within a production Flutter architecture using Bloc state management, dependency injection, REST APIs, local storage, secure storage, Firebase services, offline support, and modular feature separation.",
+    "challenges": "Worked on a large existing codebase with multiple integrations including NFC, QR scanning, Firebase messaging, local persistence, secure authentication, and complex business workflows while maintaining application reliability for production users.",
+    "impact": "Contributed to maintaining and improving a production enterprise application by delivering new functionality, improving stability, fixing critical issues, and supporting long-term scalability of the project.",
+    "tech": [
+      "Flutter",
+      "Dart",
+      "Bloc",
+      "REST API",
+      "Firebase",
+      "SQLite",
+      "Dependency Injection",
+      "Secure Storage",
+      "QR Scanner",
+      "NFC",
+      "Localization",
+      "Testing"
+    ],
+    "highlights": [
+      "Enterprise Mobile App",
+      "Bloc State Management",
+      "Firebase Integration",
+      "Offline Storage",
+      "QR & NFC Workflows",
+      "Production Maintenance"
+    ],
+    "image": "assets/images/revocheck.png",
+    "githubUrl": null,
+    "liveUrl": "https://revocheck.eu/en/",
+    "isFeatured": true
+  }
+]
