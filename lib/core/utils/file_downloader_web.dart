@@ -8,12 +8,16 @@ class WebFileDownloader implements FileDownloader {
     required String path,
     required String filename,
   }) async {
-    final anchor = html.AnchorElement(href: path)
+    final anchor = html.AnchorElement(
+      href: '${html.window.location.origin}/web-app-cv-2026/$path',
+    )
       ..setAttribute('download', filename)
       ..style.display = 'none';
 
     html.document.body?.children.add(anchor);
+
     anchor.click();
+
     anchor.remove();
   }
 }
